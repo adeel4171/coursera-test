@@ -1,6 +1,5 @@
 var app=angular.module('LunchChecker',[]);
 app.controller('LunchCheckController',function($scope){
-	$scope.list="HELLO"
 
 	$scope.CheckList = function(){
 		$scope.message="Please Enter Data First!"
