@@ -91,14 +91,14 @@ function MenuSearchService($http){
 		}).then(function(result){
 			
 
-			console.log(result.data.menu_items.length);
+			//console.log(result.data.menu_items.length);
 
 			if (result.data.menu_items.length>0){
 				console.log('LEVEL');
 				for(var i=0;i<result.data.menu_items.length;i++){
 					if (result.data.menu_items[i].description.includes(searchTerm))
 					{
-						console.log('HURRAH!!!');
+						//console.log('HURRAH!!!');
 						foundItems.push(result.data.menu_items[i]);
 					};
 				};
