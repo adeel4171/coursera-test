@@ -37,7 +37,7 @@ function NarrowItDownController(MenuSearchService){
 
 var menu=this;
 menu.found=[];
-menu.input1="hello";
+menu.input1="";
 
 menu.getData = function(value)
 {
